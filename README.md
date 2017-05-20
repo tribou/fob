@@ -32,9 +32,9 @@ Apache-2.0 License. See the [LICENSE](https://github.com/tribou/fob/blob/master/
 
 [dependencies-badge]: https://david-dm.org/tribou/fob/dev-status.svg
 [dependencies]: https://david-dm.org/tribou/fob?type=dev
-[nodejs-badge]: https://img.shields.io/badge/node->=%206.9.0-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/node->=%206.10.x-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v6.x/docs/api/
-[npm-badge]: https://img.shields.io/badge/npm->=%203.10.8-blue.svg
+[npm-badge]: https://img.shields.io/badge/npm->=%204.5.x-blue.svg
 [npm]: https://docs.npmjs.com/
 [travis-badge]: https://travis-ci.org/tribou/fob.svg?branch=master
 [travis-ci]: https://travis-ci.org/tribou/fob
@@ -45,7 +45,7 @@ Apache-2.0 License. See the [LICENSE](https://github.com/tribou/fob/blob/master/
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 [prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg
-[donate]: http://bit.ly/donate-js
+[donate]: http://bit.ly/2rDtLsx
 [github-watch-badge]: https://img.shields.io/github/watchers/tribou/fob.svg?style=social
 [github-watch]: https://github.com/tribou/fob/watchers
 [github-star-badge]: https://img.shields.io/github/stars/tribou/fob.svg?style=social

@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "engineStrict": true,
   "engines": {
-    "node": ">= 6.9.0 <7",
+    "node": ">= 6.10.x <7",
     "npm": ">=4.5.x <5",
     "yarn": "0.24.5"
   },
