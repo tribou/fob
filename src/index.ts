@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import Debug from 'debug'
 import * as Path from 'path'
 import * as Yargs from 'yargs'
