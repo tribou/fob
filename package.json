@@ -1,6 +1,6 @@
 {
   "name": "fob",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opinionated tool for building React/Redux universal/multi-platform apps",
   "main": "build/index.js",
   "engineStrict": true,
