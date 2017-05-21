@@ -1,9 +1,21 @@
-const log = require('debug')('fob:index')
-const Path = require('path')
+import Debug from 'debug'
+import * as Path from 'path'
+import * as Yargs from 'yargs'
 
+// Commands
+import { dev } from './commands/dev'
+
+const log: Function = Debug('fob:index')
+
+export interface IYargs {
+  _: string[],
+  c: string,
+  config: string,
+}
 
 // Parse command line options
-const yargs = require('yargs')
+// tslint:disable-next-line
+const yargs: IYargs = Yargs
 
 
   .usage('Usage: fob [options]')
@@ -16,8 +28,12 @@ const yargs = require('yargs')
     // This framework must be run in the root directory of the project
     coerce: Path.resolve,
     describe: 'Specify the path to the webpack config file',
-    type: 'string'
+    type: 'string',
   })
+
+
+  .command('dev', 'Launch development mode', {
+  }, dev)
 
 
   .help()
@@ -25,16 +41,12 @@ const yargs = require('yargs')
   .argv
 
 
-log('config:', yargs.config)
+log('yargs:', yargs)
 
 
-// function delayedHello(name: string, delay: number = 2000): Promise<string> {
-//   return new Promise((resolve) => setTimeout(() => resolve(`Hello, ${name}`), delay));
-// }
+// Dev script is default
+if (!yargs._[0]) {
 
-// Below is an example of using TSLint errors suppression
-// Here it's supressing missing type definitions for greeter function
+  dev(yargs)
 
-// export default async function greeter(name) { // tslint:disable-line typedef
-//   return await delayedHello(name);
-// }
+}

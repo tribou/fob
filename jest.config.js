@@ -15,4 +15,7 @@ module.exports = {
     'src/**/*.{ts,tsx,js,jsx}',
     '!src/**/*.d.ts',
   ],
-};
+  snapshotSerializers: [
+    'jest-serializer-path',
+  ],
+}
