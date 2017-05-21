@@ -72,6 +72,8 @@
     "build": "rimraf build; tsc -p tsconfig.release.json",
     "watch": "rimraf build; tsc -w -p tsconfig.release.json",
     "lint": "tslint -t stylish '{src,__tests__}/**/*.{ts,tsx}'",
+    "prepublish": "npm run lint && npm run build",
+    "postpublish": "git push --follow-tags",
     "pretest": "npm run lint",
     "start": "DEBUG=fob:* node ${npm_package_bin_fob}",
     "test": "npm run test-only",
