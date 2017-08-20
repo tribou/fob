@@ -2,6 +2,7 @@
 [![Node.js version][nodejs-badge]][nodejs]
 [![NPM version][npm-badge]][npm]
 [![Build Status][travis-badge]][travis-ci]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Ffob.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Ffob?ref=badge_shield)
 
 [![MIT License][license-badge]][LICENSE]
 [![PRs Welcome][prs-badge]][prs]
@@ -55,3 +56,6 @@ Apache-2.0 License. See the [LICENSE](https://github.com/tribou/fob/blob/master/
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
 [slint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Ffob.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Ffob?ref=badge_large)
